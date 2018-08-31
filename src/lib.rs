@@ -354,7 +354,7 @@ impl From<validation::Error> for Error {
 	}
 }
 
-mod validation;
+pub mod validation;
 mod common;
 mod memory;
 mod module;
